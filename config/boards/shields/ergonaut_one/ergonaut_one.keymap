@@ -117,7 +117,7 @@ keymap {
             raise_layer {
                     label = "RSE";
                     bindings = <
-      &sys_reset &logout_macos   &hard_sign    &kp SWITCH_WINDOW   &kp C_VOL_DN                   &kp C_VOL_UP   &kp HOME   &kp HOME       &kp PSCRN   &kp PG_UP   &kp SLCK           &sys_reset
+      &bootloader &logout_macos   &hard_sign    &kp SWITCH_WINDOW   &kp C_VOL_DN                   &kp C_VOL_UP   &kp HOME   &kp HOME       &kp PSCRN   &kp PG_UP   &kp SLCK          &bootloader
       &kp LCTRL   &kp D_1         &kp D_2       &kp D_3             &kp D_4                        &kp D_5        &kp LEFT   &kp DOWN       &kp UP      &kp RIGHT   &lang_switch      &none
       &kp LALT    &kp SCREENSHOT  &kp C_PREV    &kp C_NEXT          &kp PASTE_WITHOUT_FORMATING    &kp C_PP       &kp END    &kp END        &kp DOWN    &kp PG_DN   &kp PAUSE_BREAK   &none
                                                &trans      &trans      &trans    &trans    &trans     &trans
