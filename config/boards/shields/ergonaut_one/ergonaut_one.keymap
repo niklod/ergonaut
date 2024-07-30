@@ -86,8 +86,8 @@
     combos {
       compatible = "zmk,combos";
 
-      COMBO(color_equal, &colon_equal, 20 21)
-      COMBO(underscore, &kp UNDERSCORE, 21 22)
+      COMBO(color_equal, &colon_equal, 19 20)
+      COMBO(underscore, &kp UNDERSCORE, 20 21)
       COMBO(pipe, &kp PIPE, 15 16)
     };
 
