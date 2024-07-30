@@ -18,11 +18,11 @@
 #define CLOSE_WINDOW_WIN LA(F4)
 #define PASTE_WITHOUT_FORMATING LA(LG(LS(V)))
 
-#define D_1 LG(LA(LC(LS(N1))))
-#define D_2 LG(LA(LC(LS(N2))))
-#define D_3 LG(LA(LC(LS(N3))))
-#define D_4 LG(LA(LC(LS(N4))))
-#define D_5 LG(LA(LC(LS(N5))))
+#define D_1 LC(N1)
+#define D_2 LC(N2)
+#define D_3 LC(N3)
+#define D_4 LC(N4)
+#define D_5 LC(N5)
 
 #define COMBO(NAME, BINDINGS, KEYPOS) \
   combo_##NAME { \
@@ -117,9 +117,9 @@ keymap {
             raise_layer {
                     label = "RSE";
                     bindings = <
-      &none      &logout_macos   &hard_sign    &kp SWITCH_WINDOW   &kp C_VOL_DN                   &kp C_VOL_UP   &kp HOME   &kp HOME       &kp PSCRN   &kp PG_UP   &kp SLCK          &kp CLCK
-      &kp LCTRL  &kp D_1         &kp D_2       &kp D_3             &kp D_4                        &kp D_5        &kp LEFT   &kp DOWN       &kp UP      &kp RIGHT   &lang_switch      &none
-      &kp LALT   &kp SCREENSHOT  &kp C_PREV    &kp C_NEXT          &kp PASTE_WITHOUT_FORMATING    &kp C_PP       &kp END    &kp END        &kp DOWN    &kp PG_DN   &kp PAUSE_BREAK   &none
+      &sys_reset &logout_macos   &hard_sign    &kp SWITCH_WINDOW   &kp C_VOL_DN                   &kp C_VOL_UP   &kp HOME   &kp HOME       &kp PSCRN   &kp PG_UP   &kp SLCK           &sys_reset
+      &kp LCTRL   &kp D_1         &kp D_2       &kp D_3             &kp D_4                        &kp D_5        &kp LEFT   &kp DOWN       &kp UP      &kp RIGHT   &lang_switch      &none
+      &kp LALT    &kp SCREENSHOT  &kp C_PREV    &kp C_NEXT          &kp PASTE_WITHOUT_FORMATING    &kp C_PP       &kp END    &kp END        &kp DOWN    &kp PG_DN   &kp PAUSE_BREAK   &none
                                                &trans      &trans      &trans    &trans    &trans     &trans
                     >;
             };
