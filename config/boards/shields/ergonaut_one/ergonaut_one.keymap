@@ -86,11 +86,9 @@
     combos {
       compatible = "zmk,combos";
 
-      COMBO(color_equal, &colon_equal, 21 22)
-      COMBO(underscore, &kp UNDERSCORE, 22 23)
-      COMBO(ampersant, &kp AMPS, 22 23)
-      COMBO(colon, &kp COLON, 17 18)
-      COMBO(pipe, &kp PIPE, 16 17)
+      COMBO(color_equal, &colon_equal, 20 21)
+      COMBO(underscore, &kp UNDERSCORE, 21 22)
+      COMBO(pipe, &kp PIPE, 15 16)
     };
 
 keymap {
